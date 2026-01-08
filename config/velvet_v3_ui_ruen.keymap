@@ -110,7 +110,7 @@
         new_line: new_line {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp BSLH &kp N>;
+            bindings = <&kp RET>;
             label = "NEW_LINE";
         };
     };
@@ -152,9 +152,9 @@
 
         sym_en {
             bindings = <
-&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp COLON      &kp EQUAL   &kp PLUS                     &kp CARET  &kp DQT   &kp UNDER     &kp SQT   &trans    &trans
-&trans  &kp LPAR        &kp RPAR         &kp COMMA      &kp PERIOD  &kp MINUS                    &kp PRCNT  &kp EXCL  &kp QUESTION  &kp RBRC  &kp PIPE  &kp SEMI
-&trans  &kp COMMA       &kp STAR         &kp BACKSLASH  &kp FSLH    &kp DLLR                     &kp AT     &kp AMPS  &kp TILDE     &kp AMPS  &kp HASH  &trans
+&trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMI       &kp EQUAL   &kp PLUS                     &kp CARET  &kp DQT   &kp UNDER     &kp SQT    &kp GRAVE  &trans
+&trans  &kp LPAR        &kp RPAR         &kp COMMA      &kp PERIOD  &kp MINUS                    &kp PRCNT  &kp EXCL  &kp QUESTION  &kp COLON  &kp PIPE   &kp SEMI
+&trans  &kp COMMA       &kp STAR         &kp BACKSLASH  &kp FSLH    &kp DLLR                     &kp AT     &kp AMPS  &kp TILDE     &kp AMPS   &kp HASH   &trans
                         &kp LT           &kp GT         &trans      &mo 5      &trans    &trans  &trans     &trans    &kp LBKT      &kp RBKT
             >;
 
@@ -164,10 +164,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&kp RU_CYRILLIC_IO  &en HASH          &en LT    &kp EQUAL     &en GT       &en GRAVE                    &en CARET  &kp RU_DQT  &kp UNDER    &en SQT   &kp SLASH   &trans
-&kp RU_NUMERO       &kp RU_BACKSLASH  &kp LPAR  &kp MINUS     &kp RPAR     &kp PLUS                     &kp PRCNT  &en LBRC    &kp RU_SEMI  &kp RBRC  &kp EXCL    &kp RU_QMARK
-&trans              &kp KP_COMMA      &kp STAR  &kp RU_COLON  &kp RU_FSLH  &en DLLR                     &en AT     &en PIPE    &en TILDE    &en AMPS  &kp KP_DOT  &trans
-                                      &trans    &trans        &trans       &mo 5      &trans    &trans  &trans     &trans      &en LBKT     &en RBKT
+&kp RU_CYRILLIC_IO  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp SEMI       &en EQUAL    &kp PLUS                     &en CARET  &kp RU_DQT  &kp UNDER     &en SQT    &kp GRAVE   &trans
+&kp RU_NUMERO       &kp LPAR        &kp RPAR         &kp COMMA      &kp DOT      &kp MINUS                    &kp PRCNT  &kp EXCL    &kp QUESTION  &kp COLON  &kp PIPE    &kp RU_QMARK
+&trans              &kp KP_COMMA    &kp STAR         &kp BACKSLASH  &kp RU_FSLH  &en DLLR                     &en AT     &en AMPS    &en TILDE     &en AMPS   &kp KP_DOT  &trans
+                                    &kp LT           &kp GT         &trans       &mo 5      &trans    &trans  &trans     &trans      &en LBKT      &en RBKT
             >;
         };
 
