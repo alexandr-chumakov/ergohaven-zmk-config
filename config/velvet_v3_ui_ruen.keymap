@@ -167,7 +167,7 @@
 &kp RU_CYRILLIC_IO  &en LEFT_BRACE  &en RIGHT_BRACE  &en SEMI       &en EQUAL    &kp PLUS                     &en CARET    &kp RU_DQT  &kp UNDER     &en SQT       &en GRAVE  &trans
 &kp RU_NUMERO       &kp LPAR        &kp RPAR         &kp RU_COMMA   &kp RU_DOT   &kp MINUS                    &en AT       &kp EXCL    &kp RU_QMARK  &kp RU_COLON  &en PIPE   &kp RU_SEMI
 &trans              &kp KP_COMMA    &kp STAR         &kp BACKSLASH  &kp RU_FSLH  &en DLLR                     &en PERCENT  &en AMPS    &en TILDE     &en AMPS      &en HASH   &trans
-                                    &kp LT           &kp GT         &trans       &mo 5      &trans    &trans  &trans       &trans      &en LBKT      &en RBKT
+                                    &en LT           &en GT         &trans       &mo 5      &trans    &trans  &trans       &trans      &en LBKT      &en RBKT
             >;
         };
 
