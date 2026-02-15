@@ -164,8 +164,8 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&en GRAVE      &en LEFT_BRACE  &en RIGHT_BRACE  &en EQUAL      &en COLON    &kp RU_CYRILLIC_IO                    &en CARET    &kp DLLR      &kp UNDER     &en SQT    &en DOUBLE_QUOTES  &trans
-&kp RU_NUMERO  &kp LPAR        &kp RPAR         &kp RU_COMMA   &kp RU_DOT   &kp MINUS                             &en AT       &kp EXCL      &kp RU_QMARK  &kp COLON  &en SEMICOLON      &trans
+&en GRAVE      &en LEFT_BRACE  &en RIGHT_BRACE  &en EQUAL      &en COLON    &kp RU_CYRILLIC_IO                    &en CARET    &en DLLR      &kp UNDER     &en SQT    &en DOUBLE_QUOTES  &trans
+&kp RU_NUMERO  &kp LPAR        &kp RPAR         &kp RU_COMMA   &kp RU_DOT   &kp MINUS                             &en AT       &kp EXCL      &kp RU_QMARK  &en COLON  &en SEMICOLON      &trans
 &trans         &en LBKT        &en RBKT         &kp BACKSLASH  &kp RU_FSLH  &en PLUS                              &en PERCENT  &en ASTERISK  &en AMPS      &en TILDE  &en HASH           &en PIPE
                                &en LT           &en GT         &trans       &mo 5               &trans    &trans  &trans       &trans        &en LBKT      &en RBKT
             >;
